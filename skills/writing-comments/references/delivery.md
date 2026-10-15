@@ -6,6 +6,12 @@ Use the existing connector, API, or repository workflow for the requested destin
 
 Confirm the issue, parent discussion, general PR conversation, or review thread before writing. Follow repository tracker instructions for an unspecified destination and the user's explicit destination when supplied. A general conversation comment and a review-thread reply may require different operations.
 
+Resolve the reply target separately from the addressee: a comment addressed to Jane Doe may belong as a reply to John Doe's comment. When editing an existing comment, preserve its identity, unrelated text, and mentions, and keep each attachment with the point it supports.
+
+## Recipient-accessible references
+
+Use verified issue, comment, PR, or attachment links that recipients can access through the destination. Local filesystem and repository-relative artifact paths are useful in the agent chat but need an uploaded artifact or destination link in an external comment. Resolve the source link through available tools instead of guessing its shape. Preserve access controls; a shared link need not be public.
+
 ## Mentions
 
 When a notification is requested, resolve the recipient to the destination account and use its supported mention representation. A typed `@name` alone does not establish notification. If mentions are unavailable, address the person in text and report that notification could not be established.

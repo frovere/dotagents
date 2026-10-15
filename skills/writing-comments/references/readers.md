@@ -45,6 +45,14 @@ Use the relevant contract, code, fix commit, or PR link. For a valid finding, ex
 
 Read the finding against the current code and accepted contract before replying, including bot findings. Reply in the existing review thread when that is the requested surface. Resolving that thread is a separate action.
 
+## Cross-team clarification: seek shared understanding
+
+When evidence leaves room for misunderstanding, use a curious, collaborative tone. State what you read or observed, explain the difference, and ask for confirmation. Keep verified facts direct; uncertainty belongs to the unresolved claim. Frame the request around reaching a shared contract rather than assigning blame or presuming work is missing.
+
+For example: “Jane Doe, el requisito menciona un país de residencia, pero no lo veo en la respuesta documentada. ¿Ese dato llega por otro servicio o estoy interpretando mal el contrato?”
+
+For several gaps, keep each question and its supporting evidence together; use separate comments when requested. Direct product-scope decisions and technical-contract questions to the people responsible for them. If a scope change is needed, identify what should be reflected in the requirements and mockup so implementation and QA share the same reference.
+
 ## Unknown reader
 
 Use the task and thread to choose the amount of detail. A neutral, direct comment is sufficient when personal preferences are unknown. Clarify identity only when it affects delivery, such as an ambiguous account mention.

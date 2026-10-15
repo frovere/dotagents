@@ -28,6 +28,8 @@ This language choice applies only to the comment and material authored for it, s
 
 Check the source needed for the claim: implementation and relevant PR head for a fix; agreed product reply for intended behavior; test output for verification; build or deployment evidence for release availability. Earlier drafts and historical summaries are pointers to inspect, not proof of current state.
 
+Treat an undocumented behavior as a question to verify, rather than proof it is unimplemented. When requirements, mockups, documentation, or implementation disagree, identify the specific difference and ask the responsible owner which behavior governs. Read revised requirements and newer replies or attachments before repeating a blocker; distinguish resolved questions, remaining dependencies, and explicitly deferred work.
+
 Keep implemented, pushed, merged, deployed, automated verification, and manual QA distinct. Include only the distinctions material to this reader's next action. If a required source is unavailable, mark that specific claim as unverified and draft the supported part.
 
 For stacked PRs, identify which PR contains the fix and whether it is present in the PR receiving the reply. For a product follow-up, distinguish an open proposal from an accepted decision and from delivered behavior.
@@ -42,11 +44,14 @@ Use the relevant shape, without forcing headings or empty sections:
 
 - **Retest:** exact build or branch, setup, actions and expected results, then remaining coverage and the requested report.
 - **Decision:** concrete situation, recommendation and tradeoff, then the unanswered choice. For several decisions, group a copyable answer template at the end.
+- **Clarification:** the requirement or observed behavior, the conflicting or missing evidence, and the specific question that would resolve the uncertainty. Use the cross-team guidance in [readers.md](references/readers.md).
 - **Implementation handoff:** current behavior, missing work, dependency or owner, and the requested next action.
 - **Review reply:** disposition, reason, and the relevant fix or contract evidence. Say where a later stacked PR supplies the fix.
 - **Reference update:** one sentence and the relevant link may be enough.
 
 Choose a visual only when it resolves a concrete ambiguity. Read [delivery.md](references/delivery.md) before preparing media: use native diagram rendering when supported, otherwise an available image renderer or authorized drawing integration.
+
+For a scoped revision, change only the requested part and preserve the remaining draft, questions, mentions, and evidence. A link correction does not authorize shortening the comment. When presenting the revised draft, include the complete text unless the user asks for only the replacement fragment.
 
 ## Deliver
 
@@ -58,4 +63,4 @@ Finish with the comment permalink when available and any material delivery limit
 
 ## Completion
 
-The recipient can identify the next action, the supporting evidence, and any limit affecting that action. The draft or published comment matches the requested voice, language, destination, and scope. Published mentions and media have the level of verification reported to the user.
+The recipient can identify the next action, the supporting evidence, and any limit affecting that action. Every requested point remains represented. The draft or published comment matches the requested voice, language, destination, and scope. Published mentions and media have the level of verification reported to the user.
