@@ -10,7 +10,10 @@ Install the skills with:
 npx skills add frovere/dotagents
 ```
 
-The repository currently includes the `commit` skill for creating atomic Git commits with consistent messages.
+Available skills:
+
+- [`commit`](skills/commit/SKILL.md): create atomic Git commits with consistent messages.
+- [`writing-comments`](skills/writing-comments/SKILL.md): draft and publish comments on your behalf, matching the recipient's role, the destination conversation's language, and the available delivery capabilities.
 
 ## Attribution
 
