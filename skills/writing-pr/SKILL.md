@@ -48,7 +48,7 @@ Choose the format that explains the change most directly. A small fix may need o
 - **Complex flow or state changes:** use a focused Mermaid codeblock diagram when it explains relationships more clearly than prose.
 - **High-risk or wide-scope changes:** expand only as needed to explain the design, compatibility, rollout, and rollback implications. A technical-blog-style explanation can be appropriate when context, storytelling, snippets, or diagrams materially help review.
 
-**Attachments:** when drafting or publishing a PR body or comment with local images or videos, read [GitHub CLI attachments](attachments.md) for Markdown placement and `--attach` upload instructions.
+**Attachments:** when drafting or publishing a PR body or comment with local images or videos, read [GitHub CLI attachments](references/attachments.md) for Markdown placement and `--attach` upload instructions.
 
 Omit routine "I ran tests" boilerplate. Include verification evidence, failed checks, or unverified behavior when material to the reviewer's decision, or when the repository template requires it.
 
