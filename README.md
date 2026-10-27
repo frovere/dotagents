@@ -13,7 +13,9 @@ npx skills add frovere/dotagents
 Available skills:
 
 - [`commit`](skills/commit/SKILL.md): create atomic Git commits with consistent messages.
+- [`file-pr`](skills/file-pr/SKILL.md): file a concise pull request.
 - [`writing-comments`](skills/writing-comments/SKILL.md): draft and publish comments on your behalf, matching the recipient's role, the destination conversation's language, and the available delivery capabilities.
+- [`writing-pr`](skills/writing-pr/SKILL.md): write pull request titles and bodies with clear context and review evidence.
 
 ## Attribution
 
